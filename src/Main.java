@@ -8,11 +8,11 @@ import org.json.JSONObject;
 class AssemblyAIChatbot {
 
     // Put your AssemblyAI API Key here
-    private static final String API_KEY = "bbff20bb3e2442db8417ce135d14c21d";
+    private static final String API_KEY = " ";
 
     public static void main(String[] args) throws Exception {
         // Path to your audio file
-        String audioFilePath = "C:\\Users\\Sudhansu\\Downloads\\Assistant\\chat\\src\\audio.unknown";
+        String audioFilePath = "Audio_path.mp3";
 
         // 1. Upload the audio file
         String uploadUrl = uploadAudioFile(audioFilePath);
